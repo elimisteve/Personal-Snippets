@@ -61,8 +61,7 @@ db.testcollection.insert(team)
 # 
 
 print "Counting the amount of documents \n"
-print "There are "+ str(db.testcollection.count()) +" documents in this collection."
-print "\n"
+print "There are", db.testcollection.count(), "documents in this collection.\n"
 
 print "Finding a specific document \n"
 pprint.pprint(db.testcollection.find_one({"Name": "AJ" }))
