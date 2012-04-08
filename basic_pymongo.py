@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/env python
 # Author: AJ v Bahnken -- ajvb
 
 # Simple PyMongo example.
